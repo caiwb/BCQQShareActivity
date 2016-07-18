@@ -1,0 +1,14 @@
+PODS:
+  - BCQQShareActivity (0.1.0)
+
+DEPENDENCIES:
+  - BCQQShareActivity (from `../`)
+
+EXTERNAL SOURCES:
+  BCQQShareActivity:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BCQQShareActivity: f9a9d09ec90b7758c498a16236c21b2514fa0d33
+
+COCOAPODS: 0.39.0
