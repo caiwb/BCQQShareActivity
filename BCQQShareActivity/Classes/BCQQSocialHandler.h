@@ -15,6 +15,8 @@
 #define QQ_OPEN_ID          @"QQ_OPEN_ID"
 #define QQ_EXPIRATION_DATE  @"QQ_EXPIRATION_DATE"
 
+@class BCQQUserInfo;
+
 @interface BCQQSocialHandler : NSObject <TencentSessionDelegate, QQApiInterfaceDelegate>
 
 @property (nonatomic, strong) TencentOAuth *oAth;
@@ -33,7 +35,7 @@
 
 @property (nonatomic, strong) void (^loginComplete)(BOOL suc, NSString *accessToken, NSString *openId, NSString *errMsg);
 
-@property (nonatomic, strong) void (^getUserInfoComplete)(BOOL suc, id userInfo);
+@property (nonatomic, strong) void (^getUserInfoComplete)(BOOL suc, BCQQUserInfo *userInfo);
 
 @property (nonatomic, strong) void (^shareComplete)(BOOL suc, NSString *errMsg);
 

@@ -36,6 +36,7 @@ TODO: Add long description of the pod here.
 
   s.private_header_files = 'BCQQShareActivity/Classes/**/*.h'
 
+  s.dependency 'JSONModel'
   s.frameworks = 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   s.vendored_frameworks = 'BCQQShareActivity/Classes/TencentOpenAPI.framework'
   s.libraries = 'iconv', 'sqlite3', 'z', 'c++'

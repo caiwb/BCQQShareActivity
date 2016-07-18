@@ -39,7 +39,7 @@
     }
 }
 
-+ (void)getUserInfoWithCompleteBlock:(void (^)(BOOL, id))complete
++ (void)getUserInfoWithCompleteBlock:(void (^)(BOOL, BCQQUserInfo *))complete
 {
     NSParameterAssert(complete);
     

@@ -1,5 +1,7 @@
 PODS:
-  - BCQQShareActivity (0.1.0)
+  - BCQQShareActivity (0.1.0):
+    - JSONModel
+  - JSONModel (1.2.0)
 
 DEPENDENCIES:
   - BCQQShareActivity (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BCQQShareActivity: 4e7b258469f6a62905f1ef3768e073c1b87039eb
+  BCQQShareActivity: 9319420d35c2f0dfcb16ca4c77cf3087fb4bdf7d
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
 
 COCOAPODS: 0.39.0

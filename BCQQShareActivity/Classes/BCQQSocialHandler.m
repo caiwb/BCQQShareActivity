@@ -8,6 +8,7 @@
 //
 
 #import "BCQQSocialHandler.h"
+#import "BCQQUserInfo.h"
 
 @implementation BCQQSocialHandler
 
@@ -143,7 +144,7 @@
 {
     if (URLREQUEST_SUCCEED == response.retCode && kOpenSDKErrorSuccess == response.detailRetCode)
     {
-        self.getUserInfoComplete(YES, response.jsonResponse);
+        self.getUserInfoComplete(YES, [[BCQQUserInfo alloc] initWithDictionary:response.jsonResponse error:nil]);
     }
 }
 
