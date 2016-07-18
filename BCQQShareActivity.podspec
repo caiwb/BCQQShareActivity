@@ -37,14 +37,7 @@ TODO: Add long description of the pod here.
   s.private_header_files = 'BCQQShareActivity/Classes/**/*.h'
 
   s.frameworks = 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
-  s.vendored_frameworks = 'TencentActivity/Classes/TencentOpenAPI.framework'
+  s.vendored_frameworks = 'BCQQShareActivity/Classes/TencentOpenAPI.framework'
   s.libraries = 'iconv', 'sqlite3', 'z', 'c++'
 
-  # s.resource_bundles = {
-  #   'BCQQShareActivity' => ['BCQQShareActivity/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
