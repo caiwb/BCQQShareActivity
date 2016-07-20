@@ -1,4 +1,4 @@
-#use_frameworks!
+use_frameworks!
 
 target 'BCQQShareActivity_Example' do
   pod 'BCQQShareActivity', :path => '../'

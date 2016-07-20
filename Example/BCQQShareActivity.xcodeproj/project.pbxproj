@@ -10,23 +10,10 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0AF7DFB6BC62DF54297B8319</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-BCQQShareActivity_Example.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>43CBDCC9744A79E60CCB5457</key>
+		<key>3C7DCB1148EEC0D02CB2173C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0AF7DFB6BC62DF54297B8319</string>
+			<string>6C91C429D17388C96217D62E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -133,7 +120,7 @@
 				<string>6003F590195388D20070C39A</string>
 				<string>6003F592195388D20070C39A</string>
 				<string>6003F58E195388D20070C39A</string>
-				<string>43CBDCC9744A79E60CCB5457</string>
+				<string>3C7DCB1148EEC0D02CB2173C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -218,7 +205,7 @@
 				<string>6003F58F195388D20070C39A</string>
 				<string>6003F591195388D20070C39A</string>
 				<string>6003F5AF195388D20070C39A</string>
-				<string>0AF7DFB6BC62DF54297B8319</string>
+				<string>6C91C429D17388C96217D62E</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -916,6 +903,19 @@
 			<string>Podspec Metadata</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C91C429D17388C96217D62E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_BCQQShareActivity_Example.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>6E8E5FF80F55221855DB4838</key>
 		<dict>

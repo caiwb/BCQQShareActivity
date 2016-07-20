@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'BCQQShareActivity/Classes/*.{h,m}'
   s.resource = 'BCQQShareActivity/Assets/**/*'
 
-  s.private_header_files = 'BCQQShareActivity/Classes/**/*.h'
+  s.public_header_files = 'BCQQShareActivity/Classes/**/*.h'
 
   s.dependency 'JSONModel'
   s.frameworks = 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
